@@ -1,0 +1,18 @@
+[package]
+name = "ValueRouter"
+version = "1.0.0"
+authors = []
+
+[addresses]
+exampleAddress = "0x82f3620a37631b81265ae095144c71269e0d162de8ce426399dedd5f3f481c53"
+value_router = "0x355dfd8c562733a58648604b8b4def5a6eb098661a7a80ebb5215fb0b576173c"
+value_router_address = "0x355dfd8c562733a58648604b8b4def5a6eb098661a7a80ebb5215fb0b576173c"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/SUPRANolan/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
